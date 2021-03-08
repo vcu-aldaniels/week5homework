@@ -13,11 +13,11 @@ def test_least_number():
 def test_sum_of_list():
     assert homework.add_list_numbers([1, 2, 3, 4]) == 10
     assert homework.add_list_numbers([]) == 0
-    assert homework.add_list_numbers(incoming_list) == 0
+    assert homework.add_list_numbers(None) == 0
 
 def test_key_with_the_longest_value():   
     assert (
         homework.longest_value_key({"dog": "cat", "a": "asdfasdfasdfasdfasdf"} == "a")
     )
     assert homework.longest_value_key({}) is None
-    assert homework.longest_value_key(incoming_dict) is None
+    assert homework.longest_value_key(None) is None
