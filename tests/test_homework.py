@@ -18,15 +18,15 @@ def test_least_number():
     
 
 
-def test_sum_of_list():
+def test_sum_of_list(incoming_list):
     """Quick test to see if you can add together all the numbers in a list."""
     homework.add_list_numbers([1, 2, 3, 4]) == 10
     homework.add_list_numbers([]) == 0
-    homework.add_list_number() == 0
+    homework.add_list_numbers() == 0
 
 
 
-def test_key_with_the_longest_value():
+def test_key_with_the_longest_value(incoming_dict):
     """A little trickier.   Which KEY has the 'longest' value associated with it? """
     (
         homework.longest_value_key({"dog": "cat", "a": "asdfasdfasdfasdfasdf"}) == "a"
