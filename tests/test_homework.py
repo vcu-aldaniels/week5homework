@@ -22,7 +22,7 @@ def test_sum_of_list():
     """Quick test to see if you can add together all the numbers in a list."""
     homework.add_list_numbers([1, 2, 3, 4]) == 10
     homework.add_list_numbers([]) == 0
-    homework.add_list_numbers(incoming_list) == 0
+    homework.add_list_numbers() == 0
 
 
 
@@ -32,4 +32,4 @@ def test_key_with_the_longest_value():
         homework.longest_value_key({"dog": "cat", "a": "asdfasdfasdfasdfasdf"}) == "a"
     )
     homework.longest_value_key({}) is None
-    homework.longest_value_key(incoming_dict) is None
+    homework.longest_value_key() is None
