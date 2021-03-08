@@ -7,9 +7,7 @@ def find_greatest_number(incoming_list):
     Find the largest number in the list.
     """
     find_value = max(incoming_list)
-    pass 
-
-
+  
 def find_least_number(incoming_list):
     """
     Required parameter, incoming_list, should be a list.
@@ -18,16 +16,13 @@ def find_least_number(incoming_list):
     find_value = min(incoming_list)
     pass 
 
-
 def add_list_numbers(incoming_list):
     """
     Required parameter, incoming_list, should be a list.
     Add all the values together and return it.
     """
     find_value = sum(incoming_list)
-    pass 
-
-
+    
 def longest_value_key(incoming_dict):
     """
     Required parameter, incoming_dict, should be a dict.
