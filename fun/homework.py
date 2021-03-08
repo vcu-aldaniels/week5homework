@@ -7,7 +7,7 @@ def find_greatest_number(incoming_list):
     Find the largest number in the list.
     """
     find_value = max(incoming_list)
-    pass(incoming_list)
+    pass(max(incoming_list))
 
 
 def find_least_number(incoming_list):
@@ -16,7 +16,7 @@ def find_least_number(incoming_list):
     Find the smallest/least number in the list.
     """
     find_value = min(incoming_list)
-    pass(incoming_list)
+    pass(min(incoming_list))
 
 
 def add_list_numbers(incoming_list):
@@ -25,7 +25,7 @@ def add_list_numbers(incoming_list):
     Add all the values together and return it.
     """
     find_value = sum(incoming_list)
-    pass(incoming_list)
+    pass(sum(incoming_list))
 
 
 def longest_value_key(incoming_dict):
@@ -34,4 +34,4 @@ def longest_value_key(incoming_dict):
     Find the KEY that has a value with the highest length, use the len() function
     """
     find_value = len(incoming_dict)
-    pass(incoming_dict)
+    pass(len(incoming_dict))
