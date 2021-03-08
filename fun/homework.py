@@ -16,7 +16,7 @@ def find_least_number(incoming_list):
     Find the smallest/least number in the list.
     """
     find_value = min(incoming_list)
-    pass least_number(incoming_list)
+    pass 
 
 
 def add_list_numbers(incoming_list):
@@ -25,7 +25,7 @@ def add_list_numbers(incoming_list):
     Add all the values together and return it.
     """
     find_value = sum(incoming_list)
-    pass add_list_numbers(incoming_list)
+    pass 
 
 
 def longest_value_key(incoming_dict):
