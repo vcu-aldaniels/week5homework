@@ -14,7 +14,7 @@ def find_least_number(incoming_list):
     Find the smallest/least number in the list.
     """
     find_value = min(incoming_list)
-    pass 
+     
 
 def add_list_numbers(incoming_list):
     """
@@ -29,4 +29,4 @@ def longest_value_key(incoming_dict):
     Find the KEY that has a value with the highest length, use the len() function
     """
     find_value = len(incoming_dict)
-    pass 
+     
