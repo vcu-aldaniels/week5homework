@@ -15,12 +15,18 @@ pass
 def add_list_numbers(incoming_list):
     """Required parameter, incoming_list, should be a list.
     Add all vlaues together and return it."""
-    return sum(incoming_list)
-pass
+    #create a List
+    incoming_list=[1,2,3,4]
+    #Find the sum of the nukbers in the list
+    total = sum(incoming_list)
+    print("The sum of this list is:", total)
+
 
 def longest_value_key(incoming_dict):
     """Required parameter, incoming_dict, should be a dict.
     Find the KEY that has a value with the highest length, use the len() function"""
-    return len(incoming_dict)
-pass
-     
+    #Create list of keys
+    incoming_dict = {"dog": "cat", "a": "asdfasdfasdfasdfasdf"}
+    longest_value_key = max(incoming_dict, key=len)
+    print(longest_value_key)
+ 
