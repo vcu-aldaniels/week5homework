@@ -12,7 +12,7 @@ def test_least_number():
     """Quick test to see if you can find the smallest number in a list."""
     assert homework.find_least_number([1, 2, 3, 4, 5, 6, 7, 8]) == 1
     assert homework.find_least_number([8, 7, 3, 2, 4, 1, 6]) == 1
-    
+
 
 def test_sum_of_list():
     """Quick test to see if you can add together all the numbers in a list."""
