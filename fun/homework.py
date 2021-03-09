@@ -17,7 +17,7 @@ def add_list_numbers(incoming_list):
     Add all vlaues together and return it."""
     #create a List
     incoming_list=[1,2,3,4]
-    #Find the sum of the nukbers in the list
+    #Find the sum of the numbers in the list
     total = sum(incoming_list)
     print("The sum of this list is:", total)
 
